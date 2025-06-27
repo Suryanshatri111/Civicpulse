@@ -1,73 +1,47 @@
-# Welcome to your project
+# Civic Pulse 🚦📊
 
-## Project info
+Civic Pulse is a smart civic-tech platform built to empower citizens and local authorities by promoting transparency, accountability, and real-time monitoring of public infrastructure and services across Rajasthan.
 
-**URL**: https://lovable.dev/projects/2f529f6e-4b22-4a9b-9b7a-1ff46940764f
+---
 
-## How can I edit this code?
+## 🌟 Features
 
-There are several ways of editing your application.
+- **Real-Time Road Monitoring**: AI-powered image detection for potholes and damaged roads.
+- **Traffic Signal Analytics**: Monitor and report faulty or non-functional signals.
+- **Government Scheme Transparency**: Track progress and funds usage in local development schemes.
+- **Citizen Reporting Portal**: Seamless submission of civic complaints with photo/video proof.
+- **Admin Dashboard**: Insights for authorities with heatmaps, graphs, and issue status updates.
+- **Login/Signup System**: Secure access for citizens and administrators.
+- **Responsive UI**: Mobile and desktop-friendly modern interface.
 
-**Use Lovable**
+---
 
-Simply visit the (https://lovable.dev/projects/2f529f6e-4b22-4a9b-9b7a-1ff46940764f) and start prompting.
+## 🚀 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Frontend**: React.js, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **Authentication**: JWT & bcrypt
+- **Hosting**: Render / Vercel / Railway
+- **Image Processing**: TensorFlow.js / OpenCV (for AI-based detection)
+- **Data Visualization**: Chart.js or Recharts
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 📸 Screenshots
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+| Login Page | Dashboard | Analytics |
+|------------|-----------|-----------|
+| ![Login](link-to-image) | ![Dashboard](link-to-image) | ![Analytics](link-to-image) |
 
-Follow these steps:
+> Replace `link-to-image` with your actual GitHub image links or uploads.
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+---
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## 🔧 Local Setup
 
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2f529f6e-4b22-4a9b-9b7a-1ff46940764f) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```bash
+git clone https://github.com/yourusername/civicpulse.git
+cd civicpulse
+npm install
+npm start
